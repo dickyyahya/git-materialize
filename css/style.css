@@ -1,0 +1,57 @@
+/* fallback */
+@font-face {
+  font-family: "Material Icons";
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonticon.woff2) format("woff2");
+}
+
+.material-icons {
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: "liga";
+  -webkit-font-smoothing: antialiased;
+}
+
+.navbar-fixed img {
+  width: 16%;
+  height: 16%;
+}
+
+.navbar-fixed a {
+  font-size: large;
+}
+
+.slider h3,
+.slider h5,
+.clients h3 {
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.parallax-container {
+  height: 20%;
+}
+
+.parallax img {
+  filter: grayscale(0.5);
+  opacity: 0.5 !important;
+}
+
+.clients img {
+  max-width: 150px;
+  filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.5));
+}
+
+section,
+footer {
+  padding: 5px 0;
+}
